@@ -3,12 +3,8 @@
   "minVersion": "0.8",
   "package": "com.shibamilk.fasterminecart.mixin",
   "compatibilityLevel": "JAVA_17",
-  "overwrites": {
-    "conformVisibility": true,
-    "requireAnnotations": false
-  },
   "mixins": [
-    "entity.AbstractMinecartMixin.java"
+    "entity.AbstractMinecartMixin"
   ],
   "client": ["entity.AbstractMinecartMixin"],
   "server": ["entity.AbstractMinecartMixin"],
